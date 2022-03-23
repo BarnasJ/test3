@@ -5,7 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building2..'
-                echo "${params.MY_NAME}"
             }
         }
         stage('Test') {
